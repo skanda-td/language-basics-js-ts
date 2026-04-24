@@ -1,6 +1,6 @@
 # Language Basics — JS & TS
 
-## 📌 About
+## About
 
 This project is a simple setup to learn **JavaScript (JS)** and **TypeScript (TS)** side by side in the same codebase.
 
@@ -10,21 +10,21 @@ This project is a simple setup to learn **JavaScript (JS)** and **TypeScript (TS
 Goal: understand core concepts in both languages with minimal setup.
 
 
-## 🚀 Run Commands
+## Run Commands
 
-### ▶ Run JavaScript
+### Run JavaScript
 
 ```bash
 npm run js
 ```
 
-### ▶ Run TypeScript
+### Run TypeScript
 
 ```bash
 npm run ts
 ```
 
-## ⚙️ Requirements
+##  Requirements
 
 * Node.js installed
 * Dependencies installed:
