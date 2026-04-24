@@ -1,0 +1,25 @@
+# Node modules
+node_modules/
+
+# Build output (if you compile TS later)
+dist/
+build/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+
+# TypeScript cache
+*.tsbuildinfo
+
+# VS Code (optional)
+.vscode/
+
+# Optional: ignore JS if generated from TS later
+# src/**/*.js
