@@ -183,4 +183,4 @@ function handle(status: Status): void {
 
 handle("active");
 handle("inactive");
-handle("deleted"); // ✗ Error: Argument of type '"deleted"' is not assignable to parameter of type 'Status'.
+// handle("deleted"); // ✗ Error: Argument of type '"deleted"' is not assignable to parameter of type 'Status'.
