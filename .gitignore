@@ -1,25 +1,28 @@
-# Node modules
+# ===== Dependencies =====
 node_modules/
 
-# Build output (if you compile TS later)
+# ===== Build Output =====
 dist/
 build/
 
-# Logs
-*.log
+# ===== TypeScript =====
+*.tsbuildinfo
 
-# OS files
+# Prevent accidental compiled files inside src
+src/**/*.js
+src/**/*.js.map
+src/**/*.d.ts
+
+# ===== Environment =====
+.env
+
+# ===== Logs =====
+*.log
+npm-debug.log*
+
+# ===== OS Files =====
 .DS_Store
 Thumbs.db
 
-# Env files
-.env
-
-# TypeScript cache
-*.tsbuildinfo
-
-# VS Code (optional)
+# ===== IDE (optional) =====
 .vscode/
-
-# Optional: ignore JS if generated from TS later
-# src/**/*.js

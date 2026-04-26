@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "js": "node src/js/foundations.js",
-    "ts": "ts-node src/ts/foundations.ts"
+    "dev": "ts-node --type-check src/ts/foundations.ts",
+    "build": "tsc",
+    "start": "node dist/foundations.js"
   },
   "keywords": [],
   "author": "",
